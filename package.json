@@ -8,7 +8,7 @@
     "transpile": "tsc -p .",
     "prettier:check": "prettier --check src",
     "lint": "eslint src/",
-    "build": "npm run lint && npm run prettier:check && npm run transpile",
+    "build": "npm run lint && npm run prettier:check && npm test && npm run transpile",
     "test": "jest"
   },
   "author": "",
