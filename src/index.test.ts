@@ -63,4 +63,6 @@ test("creates a form with a nested section", () => {
 		],
 		form: [{ type: "section", key: "sectionKey" }],
 	};
+
+	expect(result).toEqual(expectedResult);
 });
