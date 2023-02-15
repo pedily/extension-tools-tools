@@ -3,3 +3,5 @@
 .prettierrc.json
 node_modules
 src
+tsconfig.json
+*.tgz
